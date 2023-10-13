@@ -20,9 +20,26 @@ class MainActivity : AppCompatActivity() {
             salida += binding.telefono.text
             salida += binding.web.text
             añadir los datos del horario
-            comprobar los checkbox
             */
-            Log.d("Guardado", "salida")
+
+            //se comprueban los checkboxs
+            if (binding.cbMascotas.isChecked){
+
+            }
+
+            if (binding.cbDeportes.isChecked){
+
+            }
+
+            if (binding.cbRestaurante.isChecked){
+
+            }
+
+            if (binding.cbParqueInf.isChecked){
+
+            }
+
+            Log.d("Guardado del parque", "salida")
         }
     }
 }
