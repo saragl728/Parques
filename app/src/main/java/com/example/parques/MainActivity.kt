@@ -12,6 +12,14 @@ class MainActivity : AppCompatActivity() {
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (binding.hApertura.selectedItem.equals("24 h")){
+
+        }
+
+        if (binding.hCierre.selectedItem.equals("24 h")){
+
+        }
+
         //se debería hacer que el botón añadiera notificaciones al registro
         binding.bGuardar.setOnClickListener {
             /*String salida = "Datos del parque"
