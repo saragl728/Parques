@@ -29,7 +29,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:inputType="text"
-            android:text="Nombre"
+            android:hint="Nombre"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imagenParque"
             />
@@ -40,7 +40,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Descripción"
+        android:hint="Descripción"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nombre"
         />
@@ -52,7 +52,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:inputType="number"
-            android:text="Teléfono"
+            android:hint="Teléfono"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/descripcion"
             />
@@ -64,7 +64,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:inputType="text"
-            android:text="web"
+            android:hint="web"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/telefono"
             />
