@@ -12,13 +12,6 @@ class MainActivity : AppCompatActivity() {
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        if (binding.hApertura.selectedItem.equals("24 h")){
-
-        }
-
-        if (binding.hCierre.selectedItem.equals("24 h")){
-
-        }
 
         //se debería hacer que el botón añadiera notificaciones al registro
         binding.bGuardar.setOnClickListener {
@@ -46,6 +39,16 @@ class MainActivity : AppCompatActivity() {
             if (binding.cbParqueInf.isChecked){
 
             }
+
+            //en caso de que en las opciones de hora estuviera 24 h, se cambiaría el otro
+            if (binding.hApertura.selectedItem.equals("24 h")){
+
+            }
+
+            if (binding.hCierre.selectedItem.equals("24 h")){
+
+            }
+
 
             Log.d("Guardado del parque", "salida")
         }
