@@ -8,8 +8,8 @@ import android.widget.Toast
 class MiDialogFragment: DialogFragment()  {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity.let {
-            val title = "Título del diálogo"
-            val content = "Texto del cuadro de diálogo"
+            val title = "Confirmación"
+            val content = "¿Estás seguro de que quieres guardar los datos?"
             val builder:AlertDialog.Builder= AlertDialog.Builder(requireActivity())
             builder.setTitle(title).setMessage(content)
                 .setPositiveButton(android.R.string.ok)  {dialog, which ->

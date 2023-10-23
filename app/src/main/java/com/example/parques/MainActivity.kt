@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         //se debería hacer que el botón añadiera notificaciones al registro
         binding.bGuardar.setOnClickListener {
 
+            val miDialogo = MiDialogFragment()
+            miDialogo.show(supportFragmentManager, "MiDialogo")
+
+
             //nombre
             Log.d("Nombre", binding.nombre.text.toString())
 
