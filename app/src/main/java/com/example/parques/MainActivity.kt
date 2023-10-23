@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
             miDialogo.show(supportFragmentManager, "MiDialogo")
 
 
+            //tengo que hacer que aparezcan los mensajes en el log si se da a ok
+
+
             //nombre
             Log.d("Nombre", binding.nombre.text.toString())
 
